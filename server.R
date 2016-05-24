@@ -1,3 +1,11 @@
+# Copyright 2016 by Katie Baker [katie.baker@hutton.ac.uk] 
+#
+# https://ics.hutton.ac.uk/blastmap
+# https://www.github.com/katie-baker/BLASTmap
+#
+# Distributed under the MIT licence 
+# Please see the LICENSE.txt for terms of distribution
+
 library(shiny)
 library(d3heatmap)
 library(reshape2)
@@ -752,6 +760,7 @@ shinyServer(function(input, output, session) {
               p(a("BLASTmap on GitHub", href="https://www.github.com/katie-baker/BLASTmap")),
               p(a("The James Hutton Institute ICS homepage", href="https://ics.hutton.ac.uk")),
               p(a("The James Hutton Institute ICS twitter", href="https://twitter.com/HuttonICS")),
+              p(a("The James Hutton Institute ICS GitHub", href="https://github.com/HuttonICS")),
               p(a("Katie Baker's twitter", href="https://twitter.com/kb_bioinf")),
               hr()
     )
@@ -773,11 +782,9 @@ shinyServer(function(input, output, session) {
   #########################################################
   # import data
   dParse <- reactive({
-    print("dParse")
-    
+
     if (input$testData) {
-      
-      print("read")
+
       blastn <- read.table("test.blastn", header=FALSE, sep="\t", stringsAsFactors=FALSE, comment.char="")
       
     } else {
@@ -828,8 +835,7 @@ shinyServer(function(input, output, session) {
     values$new_mat_size <- num_q*num_h
     
     input_blastn <<- blastn
-    
-    print("return")
+
     return(blastn)
     
   })

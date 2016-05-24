@@ -1,3 +1,11 @@
+# Copyright 2016 by Katie Baker [katie.baker@hutton.ac.uk] 
+#
+# https://ics.hutton.ac.uk/blastmap
+# https://www.github.com/katie-baker/BLASTmap
+#
+# Distributed under the MIT licence 
+# Please see the LICENSE.txt for terms of distribution
+
 library(shiny)
 library(shinythemes)
 library(d3heatmap)

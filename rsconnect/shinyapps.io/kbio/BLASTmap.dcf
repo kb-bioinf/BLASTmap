@@ -1,0 +1,9 @@
+name: BLASTmap
+account: kbio
+server: shinyapps.io
+appId: 89850
+bundleId: 402524
+url: https://kbio.shinyapps.io/BLASTmap/
+when: 1458836930.06236
+asMultiple: FALSE
+asStatic: FALSE
