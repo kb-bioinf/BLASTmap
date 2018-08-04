@@ -1,8 +1,8 @@
 # BLASTmap v1.0
 
-Source code of [BLASTmap] Shiny web app.
+Source code of BLASTmap Shiny web app.
 
-BLASTmap is written in [R] (version 3.2.0 tested). To run BLASTmap locally, [RStudio] is recommended. Required R packages:
+BLASTmap is written in R (version 3.2.0 tested). To run BLASTmap locally, RStudio is recommended. Required R packages:
 * *shiny*
 * *shinythemes*
 * *d3heatmap*

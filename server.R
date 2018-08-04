@@ -1,7 +1,7 @@
-# Copyright 2016 by Katie Baker [katie.baker@hutton.ac.uk]
+# Copyright 2016 by Katie Baker
 #
 # https://ics.hutton.ac.uk/blastmap/
-# https://github.com/katie-baker/BLASTmap
+# https://github.com/kb-bioinf/BLASTmap
 #
 # Distributed under the MIT licence
 # Please see LICENSE.txt for terms of distribution
