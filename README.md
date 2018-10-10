@@ -22,3 +22,11 @@ BLASTmap is distributed under the MIT licence.
    [RStudio]: <https://www.rstudio.com>
    [R]: <https://www.r-project.org>
 
+
+
+### Citation
+
+If you use BLASTmap, please cite:  
+
+Baker K., Stephen G., Strachan S., Armstrong M., Hein I. (2018) BLASTmap: A Shiny-Based Application to Visualize BLAST Results as Interactive Heat Maps and a Tool to Design Gene-Specific Baits for Bespoke Target Enrichment Sequencing. In: Ma W., Wolpert T. (eds) Plant Pathogenic Fungi and Oomycetes. Methods in Molecular Biology, vol 1848. Humana Press, New York, NY
+
